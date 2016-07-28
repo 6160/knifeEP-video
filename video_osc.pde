@@ -155,7 +155,6 @@ void draw() {
       float z = r * r2 * sin(lat);
       
       //draw point
-      ///TODO: COLOR CHANGE SU ASSE Z
       float stroke_value = map(y,-200,200,60,255);
       
       stroke(stroke_value);
@@ -187,5 +186,5 @@ void draw() {
 
   //saveFrame("frames/####.png");
   //video export save frame
-  // videoExport.saveFrame();
+   //videoExport.saveFrame();
 }
